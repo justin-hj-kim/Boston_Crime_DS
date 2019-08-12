@@ -67,7 +67,7 @@ We can also see a slight change in the relevant feature correlations when we loo
 
 - t-SNE algorithm can accurately cluster cases where there were shooting and non shooting cases in our dataset.
 - Although the random downsampled subset is pretty small (around 600 cases each), the t-SNE algorithm detects clusters in almost every case.
-- This give an indication that furhter predictive models will perform well in separating shooting cases from non shooting cases.
+- This give an indication that further predictive models will perform well in separating shooting cases from non shooting cases.
 
 [credit to this kaggle kernel](https://www.kaggle.com/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets)
 
