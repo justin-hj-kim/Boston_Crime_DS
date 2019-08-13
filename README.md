@@ -37,7 +37,7 @@ Finally, looking at the scatterplot below, we observe that the highest number of
 
 ### Imbalanced Data - Shootings
 
-In our dataset, we observe that most of the serious crimes don't invovle a shooting (fortunately). The ratio is 58208 crimes without shooting, and 636 crimes with shooting.
+In our dataset, we observe that most of the serious crimes don't involve a shooting (fortunately). The ratio is 58208 crimes without shooting, and 636 crimes with shooting.
 
 ![image](https://user-images.githubusercontent.com/49466466/62898024-8508e080-bd22-11e9-97bd-b4657f6203d8.png)
 
