@@ -37,7 +37,7 @@ Finally, looking at the scatterplot below, we observe that the highest number of
 
 ### Imbalanced Data - Shootings
 
-In our dataset, we observe that most of the serious crimes don't invovle a shooting (fortunately). The ratio is 58208 crimes without shooting, and 636 crimes with shooting.
+In our dataset, we observe that most of the serious crimes don't involve a shooting (fortunately). The ratio is 58208 crimes without shooting, and 636 crimes with shooting.
 
 ![image](https://user-images.githubusercontent.com/49466466/62898024-8508e080-bd22-11e9-97bd-b4657f6203d8.png)
 
@@ -49,9 +49,9 @@ IF we were to just simply built a logistic regression model on this dataset, the
 
 The accuracy looks good at **99%**, but that is because the majority of the predictions were 0 to begin with. Even if the model predicted all 0's (using the baseline model which just predicts the majority outcome no matter what) **the model would still have 98.9% accuracy.**
 
-We can see that the recall rate of predictions for shootings being 1's are 0.2! **Only 20% of cases where there was actually a shooting was correctly identified.**
+We can see that the recall rate of predictions for shootings being 1's are 0.2! **Only 20% of cases where there were actually a shooting involved were correctly identified.**
 
-We can see the dangers of imbalanced datasets from this model prediciton. We would like to know when a Shooting will be involved in a crime, so let's try to "balance out" the dataset.
+We can see the dangers of imbalanced datasets from this model's prediciton. We would like to know when a shooting will be involved in a crime, so let's try to "balance out" the dataset.
 
 To deal with this issue, we can balance out the dataset using the random under sampling technique. We take our majority case (no shooting) and downsample to the number of minority case (yes-shooting) such that the new balanced dataset has a 50/50 ratio of both events.
 
@@ -67,7 +67,7 @@ We can also see a slight change in the relevant feature correlations when we loo
 
 - t-SNE algorithm can accurately cluster cases where there were shooting and non shooting cases in our dataset.
 - Although the random downsampled subset is pretty small (around 600 cases each), the t-SNE algorithm detects clusters in almost every case.
-- This give an indication that furhter predictive models will perform well in separating shooting cases from non shooting cases.
+- This give an indication that further predictive models will perform well in separating shooting cases from non shooting cases.
 
 [credit to this kaggle kernel](https://www.kaggle.com/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets)
 
