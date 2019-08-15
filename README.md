@@ -93,7 +93,7 @@ We can see that crimes that are aggravated assaults and homicides carry the most
 
 ### Future Work & Conclusion
 
-Conclusively, most crimes that happened (even the most serious ones) did not involve a shooting. However, if we were to build a predictive model to detect whether or not a crime involved shootings, we could look at aggravated assaults, homicides, and the latitude of the crimes. 
+Conclusively, most crimes that happened (even the most serious ones) did not involve a shooting. However, if we were to build a predictive model to detect whether or not a crime involved shootings, we could look at aggravated assaults, homicides, and the latitude of the crimes. We could also filter by these categories to take a more in depth look into the data for aggravated assualts and homicides to see if there are any actionable insights that can be gathered.
 
 For the future, we could look to implement some more imbalanced dataset practices. A popular method is the SMOTE method: synthetic minority oversampling technique. This would kind of be the opposite of what we did here, since we would be synthetically upsampling the number of minority cases to match the majority case to balance out the dataset. 
 
