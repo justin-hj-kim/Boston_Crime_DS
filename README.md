@@ -16,7 +16,7 @@ For the large part, we will look at crimes where the UCR_PART is categorized as 
 
 Entries with nan values were ignored. The nan values usually occrued in irrelevant columns, and even after deleting the rows with nan's we were still left with over 58k observations.
 
-From the seaborn catplot below, we can see that the most commong type of serious crime occuring in Boston is larceny. Larceny is defined as "a crime involving the unlawful taking of personal property of another person or business" It makes sense that even out of the most serious crimes, a simple "taking of others' stuff" is the most common.
+From the seaborn catplot below, we can see that the most common type of serious crime occuring in Boston is larceny. Larceny is defined as "a crime involving the unlawful taking of personal property of another person or business" It makes sense that even out of the most serious crimes, a simple "taking of others' stuff" is the most common.
 
 ![image](https://user-images.githubusercontent.com/49466466/62897554-8685d900-bd21-11e9-87af-0b38bb637923.png)
 
